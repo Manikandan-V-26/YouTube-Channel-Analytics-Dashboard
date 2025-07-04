@@ -37,7 +37,7 @@ This project is a *real-world end-to-end data analytics solution* built using *P
    - Removed nulls, duplicates, and outliers.
    - Converted subscriber/view counts to numeric format.
    - Standardized column data types using .astype().
-   - Exported cleaned file: Top_100_youtube.csv
+   - Exported cleaned file: Cleaned_Dataset.csv
 
 ---
 
@@ -54,11 +54,11 @@ This project is a *real-world end-to-end data analytics solution* built using *P
 ## 📐 Data Modeling with DAX
 
 Created custom KPIs and summary measures:
-```dax
-Total Subscribers = SUM('Top_100_youtube'[Subscribers])
-Average Views = AVERAGE('Top_100_youtube'[Views])
-Channel Count = COUNTROWS('Top_100_youtube')
-Total Views = SUM('Top_100_youtube'[Views])
+dax
+Total Subscribers = SUM('Cleaned_Dataset'[Subscribers])
+Average Views = AVERAGE('Cleaned_Dataset'[Views])
+Channel Count = COUNTROWS('Cleaned_Dataset')
+Total Views = SUM('Cleaned_Dataset'[Views])
 
 ## 📊 Power BI Dashboard Features
 
@@ -84,7 +84,18 @@ Total Views = SUM('Top_100_youtube'[Views])
 
 ## 📷 Dashboard Preview
 
-![Dashboard Screenshot](dashboard_screenshot.png) 
+![Dashboard Screenshot](https://github.com/Manikandan-V-26/YouTube-Channel-Analytics-Dashboard/blob/main/Dashboard.png) 
 
 ---
+
+### 📁 Project Structure
+
+| File / Folder                          | Description                               |
+|----------------------------------------|-------------------------------------------|
+| Cleaned_Dataset_scraper.py          | Python script to scrape and clean data    |
+| Cleaned_Dataset.csv                 | Final cleaned dataset                     |
+| YouTube_Analytics_Dashboard.pbix    | Final Power BI dashboard                  |
+| README.md                            | This documentation file                   |
+| images/                              | Folder containing dashboard images        |
+| images/dashboard_screenshot.png     | Dashboard image preview                   |
 
