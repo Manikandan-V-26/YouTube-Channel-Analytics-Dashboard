@@ -1,6 +1,7 @@
 # 📺 YouTube Channel Analytics Dashboard
 
-This project is a *real-world end-to-end data analytics solution* built using *Python* for data scraping and initial cleaning, and *Power BI* for advanced cleaning, DAX modeling, and dashboarding. It provides insights into the *Top 100 Global YouTube Channels*, analyzing metrics like total subscribers, total views, and category-wise performance.
+This project is a *real-world end-to-end data analytics solution* built using *Python* for data scraping and initial cleaning, and *Power BI* for advanced cleaning, DAX modeling, and dashboarding. It provides insights into the *Top 100 Global YouTube Channels*, analyzing metrics like total subscribers, total views, and category-wise performance.![image](https://github.com/user-attachments/assets/83148582-5bb5-4191-a8e7-af8d864032cf)
+
 
 ---
 
